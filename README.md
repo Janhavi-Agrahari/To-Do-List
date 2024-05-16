@@ -27,6 +27,6 @@ This project is an interactive to-do list built using HTML, CSS, and JavaScript.
 <ul>
   <li>index.html: Main HTML file containing the structure of the to-do list.</li>
   <li>style.css: CSS file for styling the to-do list interface.</li>
-  <li>script.js: JavaScript file for implementing interactive features and dynamic updates.</li>
+  <li>app.js: JavaScript file for implementing interactive features and dynamic updates.</li>
 </ul>
 
