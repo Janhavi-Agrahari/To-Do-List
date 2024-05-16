@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Poetsen+One&family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Reddit Sans", sans-serif;
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 250px;
+    display: flex;
+}
+.box{
+    background-color: #fff;
+    width:80%;
+    max-width: 500px;
+    text-align: left;
+    padding:2rem;
+    align-items: center;
+    justify-content: center;
+    border:black solid 1px;
+    border-radius: 2rem;
+}
+#todo-form input{
+    height:20px;
+    width:75%;
+    border:#ddc solid 2px;
+    border-radius: 4px;
+    margin-top: 2rem;
+    padding: 0.4rem;
+}
+#todo-form button{
+    background-color: rgb(16, 203, 72);
+    height:30px;
+    width: 20%;
+    margin-top: 0.5rem;
+    border:none;
+    cursor: pointer;
+    transition:background-color 0.3s;
+    border-radius: 4px;
+}
+#todo-form button:hover{
+    background-color:rgb(44, 44, 214);
+    color:#fff;
+}
+#todo-list{
+    list-style: none;
+    padding: 0;
+}
+#todo-list li{
+    background-color: #f9f9;
+    display:flex;
+    margin-top:10px;
+    padding:10px;
+    border-radius: 4px;
+    justify-content: space-between;
+    align-items: center;    
+}
